@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FamMind — Hesap Silme / Delete Account</title>
+<style>
+  body { font-family: -apple-system, Segoe UI, Roboto, sans-serif; max-width: 640px; margin: 0 auto; padding: 40px 20px 80px; color: #2D2926; line-height: 1.6; background: #F8F1E7; }
+  h1 { color: #C96F52; }
+  h2 { color: #2D2926; font-size: 19px; margin-top: 28px; }
+  .lang-toggle { text-align: center; margin-bottom: 24px; }
+  .lang-toggle a { color: #C96F52; text-decoration: none; font-weight: 700; margin: 0 8px; }
+  a.mail { color: #8C9B81; font-weight: 700; }
+  ol, ul { padding-left: 20px; }
+  #en { display: none; }
+</style>
+</head>
+<body>
+<div class="lang-toggle">
+  <a href="#" onclick="document.getElementById('tr').style.display='block';document.getElementById('en').style.display='none';return false;">Türkçe</a>
+  |
+  <a href="#" onclick="document.getElementById('tr').style.display='none';document.getElementById('en').style.display='block';return false;">English</a>
+</div>
+
+<div id="tr">
+<h1>FamMind — Hesabını ve Verilerini Sil</h1>
+
+<h2>Nasıl silinir</h2>
+<ol>
+  <li>FamMind uygulamasını aç ve giriş yap.</li>
+  <li><strong>Profil</strong> sekmesine git.</li>
+  <li>En altta <strong>"Hesabı Sil"</strong> seçeneğine dokun.</li>
+  <li>Çıkan uyarıyı onayla.</li>
+</ol>
+<p>Bu işlem anında gerçekleşir ve geri alınamaz.</p>
+
+<h2>Neler silinir</h2>
+<ul>
+  <li>Hesap bilgilerin (e-posta, görünen adın)</li>
+  <li>Sana ait tüm görevler, notlar ve listeler</li>
+  <li>Aile üyeliği bilgin</li>
+  <li>Bildirim belirteci (push token)</li>
+</ul>
+<p>Veriler silme talebiyle birlikte kalıcı olarak kaldırılır; yedeklerde en fazla 30 gün boyunca kalabilir, bu sürenin sonunda oradan da tamamen temizlenir.</p>
+
+<h2>Uygulamaya erişemiyorsan</h2>
+<p>Hesabını silmek için uygulamaya giriş yapamıyorsan, <a class="mail" href="mailto:info@fammind.com">info@fammind.com</a> adresine yaz, senin adına sileriz.</p>
+</div>
+
+<div id="en">
+<h1>FamMind — Delete Your Account and Data</h1>
+
+<h2>How to delete</h2>
+<ol>
+  <li>Open the FamMind app and sign in.</li>
+  <li>Go to the <strong>Profile</strong> tab.</li>
+  <li>Tap <strong>"Delete Account"</strong> at the bottom.</li>
+  <li>Confirm the warning.</li>
+</ol>
+<p>This happens immediately and cannot be undone.</p>
+
+<h2>What gets deleted</h2>
+<ul>
+  <li>Your account details (email, display name)</li>
+  <li>All tasks, notes, and lists you created</li>
+  <li>Your family membership</li>
+  <li>Push notification token</li>
+</ul>
+<p>Data is permanently removed upon request; it may remain in backups for up to 30 days, after which it is fully purged.</p>
+
+<h2>Can't access the app?</h2>
+<p>If you can't sign in to delete your account yourself, email <a class="mail" href="mailto:info@fammind.com">info@fammind.com</a> and we'll delete it for you.</p>
+</div>
+
+</body>
+</html>
